@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 65px;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90.41deg, #1f8d63 1.14%, #18dab2 100%);
   color: white;
   padding: 20px;
 }
@@ -51,8 +51,50 @@ main {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
   border-radius: 5px;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
-  color: white;
+  background: linear-gradient(90.41deg, #1f8d63 1.14%, #18dab2 100%);
+  color: honeydew;
   border: none;
   cursor: pointer;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
 }
