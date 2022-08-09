@@ -47,8 +47,8 @@ function, as seen below:
   return (
     <main>
       <div className="form">
-        <input type="text" name="topText" value={meme.topText} onChange={handleChange} className="form-input" />
-        <input type="text" name="bottomText" value={meme.bottomText} onChange={handleChange} className="form-input" />
+        <input type="text" name="topText" placeholder="meme text" value={meme.topText} onChange={handleChange} className="form-input" />
+        <input type="text" name="bottomText" placeholder="meme text" value={meme.bottomText} onChange={handleChange} className="form-input" />
         <button className="form-button" onClick={getMemeImage}>Generate a meme image</button>
       </div>
       <div className="meme">
